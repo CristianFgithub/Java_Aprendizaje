@@ -1,0 +1,14 @@
+
+public class ConcatenacionString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int edad;
+		
+		Scanner entrada=new scanner(System.in);
+		
+		
+	}
+
+}

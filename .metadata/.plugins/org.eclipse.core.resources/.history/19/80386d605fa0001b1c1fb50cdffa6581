@@ -1,0 +1,112 @@
+
+public class Sucursales {
+
+	public static void main(String[] args) {
+		
+		Sucursal miSucursal = new Sucursal(1, null, null);
+	}
+	class Paquete{
+		//propiedades
+		
+		private int refEnvio;
+		
+		private double peso;
+		
+		private int DNI;
+		
+		private int prioridad;
+		
+		//Constructor
+		public Paquete(int refEnvio,double peso, int DNI, int prioridad) {
+			
+			this.refEnvio=refEnvio;
+			
+			this.peso=peso;
+			
+			this.DNI=DNI;
+			
+			this.prioridad=prioridad;
+			
+		}
+		
+		//metodos
+		
+		public void setModificacion(double peso) {
+			
+			this.peso=peso;			
+		}
+		
+		public void setModificacion(int prioridad) {
+			
+			this.prioridad=prioridad;
+		}
+		
+		public double getPeso() {
+			
+			return this.peso;
+		}
+		public double getPrioridad() {
+			
+			return this.prioridad;
+		}
+		
+		
+	}
+	class Sucursal{
+		//propiedades
+		private int sucursal;
+		
+		private String direccion;
+		
+		private String ciudad;
+		
+		//constructor
+		
+		public Sucursal(int sucursal,String direccion, String ciudad) {
+			
+			this.sucursal=sucursal;
+			
+			this.direccion=direccion;
+			
+			this.ciudad=ciudad;
+			
+		}
+			
+		//metodos
+		
+		public double calculaPrecio(Paquete t) {
+			
+			double precio;
+			
+			precio=t.getPeso();
+			
+			if(t.getPrioridad()==1) precio+=10;
+			if(t.getPrioridad()==2) precio+=20;
+			
+			return precio;
+		}
+		
+		public String getSucursal(){
+	
+			return "La sucursal es " + this.sucursal;
+		
+		}
+		
+		public String getDireccion() {
+			
+			return "La dirección es " + this.direccion;
+			
+		}
+		
+		public String getCiudad() {
+			
+			return "La ciudad es " + this.ciudad;
+			
+		}
+		
+
+		
+	}
+
+
+}

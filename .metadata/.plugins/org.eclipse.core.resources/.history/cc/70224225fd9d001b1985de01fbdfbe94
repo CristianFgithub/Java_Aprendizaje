@@ -1,0 +1,10 @@
+package es.cristian.flujo;
+
+public class Condicional_If_Ejemplo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane;
+
+public class Calculo_Peso_ideal {
+
+	public static void main(String[] args) {
+		
+		int altura = Integer.parseInt(JOptionPane.showInputDialog("Cual es su altura"));
+		String genero = JOptionPane.showInputDialog("¿Eres hombre o mujer?");
+		
+
+	}
+
+}

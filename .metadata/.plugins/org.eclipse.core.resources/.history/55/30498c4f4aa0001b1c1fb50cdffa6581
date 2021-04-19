@@ -1,0 +1,52 @@
+package es.cristian.poo;
+
+public class Vehiculo {
+
+	public Vehiculo(int ruedas) { //constructor de la clase. mismo nombre que la clase.
+		
+		this.ruedas=ruedas;
+		
+		largo=2;
+		
+		ancho=1;
+		
+		peso=2;
+		
+		color="Sin color";
+		
+		
+	}
+
+	public void setColor(String color) { //método setter establece valor de propiedad
+		
+		this.color=color;
+		
+	}
+	
+	public String getColor(){ //método getter devuelve valor de propiedad
+		
+		
+		
+		return color;
+		
+	}
+	
+	public String getDatosVehiculo() {
+		
+		
+		
+		return "Tu vehículo tiene " + ruedas + " ruedas. Ademas"+
+		" tiene " + largo + "metros de largo";
+	}
+	
+	
+	private int ruedas;
+	
+	private String color;
+	
+	private int largo;
+	
+	private int ancho;
+	
+	private int peso;
+}

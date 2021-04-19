@@ -1,0 +1,14 @@
+package es.cristian.poo;
+
+public class EjercicioPoo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		EjercicioPoo1_Constructor miCuenta1 = new EjercicioPoo1_Constructor("Cristian",1000);
+		System.out.println(miCuenta1);
+	}
+	
+
+	
+
+}

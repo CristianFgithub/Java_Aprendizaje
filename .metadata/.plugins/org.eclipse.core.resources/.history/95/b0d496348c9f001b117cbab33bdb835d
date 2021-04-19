@@ -1,0 +1,16 @@
+import javax.swing.JOptionPane;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		
+		int numero=Integer.parseInt(JOptionPane.showInputDialog("Introduce un número para hacer el factorial"));
+		
+		for(int i==numero;i==0;i--) {
+			System.out.println("hola");
+		}
+		
+		
+	}
+
+}

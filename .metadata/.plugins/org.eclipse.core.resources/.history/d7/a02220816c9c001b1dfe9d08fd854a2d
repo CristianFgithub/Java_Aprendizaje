@@ -1,0 +1,16 @@
+
+public class DeclaracionVariables {
+
+	public static void main(String[] args) {
+		
+		int Edad=27;
+		
+		System.out.println(Edad);	
+		
+		Edad=35;
+		
+		System.out.println(Edad);
+				
+	}
+
+}

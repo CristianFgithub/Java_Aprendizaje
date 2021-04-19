@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Array_ejercicio1 {
+
+	public static void main(String[] args) {
+		
+		Scanner escaner=new Scanner;
+
+	}
+
+}

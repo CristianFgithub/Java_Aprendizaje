@@ -1,0 +1,27 @@
+import javax.swing.JOptionPane;
+
+public class Ejercicio_While {
+
+	public static void main(String[] args) {
+		
+		int NumeroAleatorio = (int) Math.round(Math.random()*100);
+		
+		int NumeroUsuario;
+		
+		while(!(NumeroAleatorio == NumeroUsuario)) {
+			
+			NumeroUsuario = Integer.parseInt(JOptionPane.showInputDialog("Introduce un número del 1 al 100"));
+			
+			if(NumeroAleatorio == NumeroUsuario) System.out.println("¡¡Has acertado!!");
+		
+			else {
+				
+				if(NumeroAleatorio>NumeroUsuario) System.out.println("Tu número es menor que el aleatorio");
+				
+				else System.out.println("Tu número es mayor que el aleatorio");
+				
+			}
+		}
+	}
+
+}

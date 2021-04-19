@@ -1,0 +1,20 @@
+package es.cristian.poo;
+
+public class UsoVehiculos {
+
+	public static void main(String[] args) {
+		
+		Vehiculo miCoche=new Vehiculo();
+		
+		miCoche.setColor("Amarillo");
+		
+		System.out.println(miCoche.getColor()); 
+
+		Vehiculo micoche2=new Vehiculo();
+		
+		micoche2.setColor("Rojo");
+	
+		System.out.println(micoche2.getColor());
+	}
+
+}

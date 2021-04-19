@@ -1,0 +1,22 @@
+package es.cristian.poo;
+
+public class Vehiculo {
+
+	public Vehiculo() { //constructor de la clase. mismo nombre que la clase.
+		
+		ruedas=4;
+		
+		largo=2;
+		
+	}
+
+	private int ruedas;
+	
+	private String color;
+	
+	private int largo;
+	
+	private int ancho;
+	
+	private int peso;
+}

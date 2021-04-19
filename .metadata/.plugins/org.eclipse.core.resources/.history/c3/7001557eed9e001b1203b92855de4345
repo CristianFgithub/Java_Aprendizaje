@@ -1,0 +1,10 @@
+package es.cristian.flujo;
+
+public class Operador_Ternario {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class RaizScanner {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Introduce un número");
+		
+		Scanner numero=new Scanner(System.in);
+		
+		int edad = numero.nextInt();
+	}
+
+}

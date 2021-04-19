@@ -1,0 +1,9 @@
+package es.cristian.poo;
+
+public class EjercicioPoo1_Constructor {
+
+	public EjercicioPoo1_Constructor() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
