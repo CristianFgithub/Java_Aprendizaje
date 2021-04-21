@@ -1,0 +1,34 @@
+package es.cristian.colegioPoo;
+
+public class Colegio {
+	//propiedades
+	private final String colegio;
+	
+	private int numerosAlumnos;
+	
+	
+	
+
+	
+	//constructor
+	public Colegio(String NombreColegio, int NumerosAlumnos) {
+		
+		this.colegio=NombreColegio;
+		
+		this.numerosAlumnos=NumerosAlumnos;
+		
+	}
+	
+	//metodos
+	public static void nuevoAlumno(String NombreAlumnos, double NotaAlumno) {
+		
+		nombreAlumno=NombreAlumnos;
+		
+		notaAlumno=NotaAlumno;
+		
+		identidad=ID;
+		
+		ID++;
+		
+	}
+}

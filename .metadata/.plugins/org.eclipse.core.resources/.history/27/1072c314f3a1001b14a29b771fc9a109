@@ -1,0 +1,17 @@
+package es.cristian.colegioPoo;
+
+public class Alumno {
+
+	// propiedades
+
+	//constructor
+	public Alumno() {
+		
+		
+	}
+	
+	
+	//metodos
+
+
+}

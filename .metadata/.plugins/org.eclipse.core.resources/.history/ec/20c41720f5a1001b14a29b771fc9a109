@@ -1,0 +1,19 @@
+package es.cristian.colegioPoo;
+
+public class Alumno {
+
+	// propiedades
+	
+	
+
+	//constructor
+	public Alumno(Colegio NombreColegio, String nombreAlumno, double notaMedia) {
+		
+		
+	}
+	
+	
+	//metodos
+
+
+}

@@ -1,0 +1,12 @@
+package es.cristian.colegioPoo;
+
+public class UsoColegio {
+
+	public static void main(String[] args) {
+		
+		Colegio SanJavier=new Colegio("San Javier", 200);
+
+		SanJavier.
+	}
+
+}

@@ -1,0 +1,56 @@
+package es.cristian.poo;
+
+public class UsoEmpleados {
+
+	public static void main(String[] args) {
+		
+		Empleados empleado1= new Empleados("Cristian");
+		
+		Empleados empleado2= new Empleados("Laura");
+		
+		System.out.println(empleado1.getDatosEmpleado());
+		
+		empleado1.setSeccion("Informática");
+		
+		
+		
+		System.out.println(empleado1.getDatosEmpleado());
+		
+		System.out.println(empleado2.getDatosEmpleado());
+	}
+
+}
+
+class Empleados{
+	
+	//propiedades
+	
+	private final String nombre;
+	
+	private String seccion;
+	  
+	private static int IdSiguiente;
+	//constructor
+		
+	public Empleados (String nombre, int id) {
+	
+		this.nombre=nombre;
+	
+		Id=IdSiguiente;
+		
+		IdSiguiente++;
+		
+		seccion="Administración";
+	
+	}
+	
+	public void setSeccion(String seccion) {
+		this.seccion=seccion;
+	}
+	
+	public String getDatosEmpleado() {
+		
+		return "El empleado " + this.nombre + " pertenece a la seccion de " + this.seccion + " y tu id es el " + this.id;
+		
+	}
+}

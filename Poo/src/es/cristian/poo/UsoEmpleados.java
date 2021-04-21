@@ -6,13 +6,17 @@ public class UsoEmpleados {
 		
 		Empleados empleado1= new Empleados("Cristian");
 		
+		Empleados empleado2= new Empleados("Laura");
+		
 		System.out.println(empleado1.getDatosEmpleado());
 		
 		empleado1.setSeccion("Informática");
 		
 		System.out.println(empleado1.getDatosEmpleado());
 		
-		
+		System.out.println(empleado2.getDatosEmpleado());
+
+		System.out.println(Empleados.getIdSiguiente());
 	}
 
 }
@@ -24,13 +28,20 @@ class Empleados{
 	private final String nombre;
 	
 	private String seccion;
+	  
+	private static int IdSiguiente=1;
 	
+	private int Id;
 	//constructor
-	
+		
 	public Empleados (String nombre) {
+		
+		Id=IdSiguiente;
+		
+		IdSiguiente++;
 	
 		this.nombre=nombre;
-	
+		
 		seccion="Administración";
 	
 	}
@@ -41,7 +52,14 @@ class Empleados{
 	
 	public String getDatosEmpleado() {
 		
-		return "El empleado " + this.nombre + " pertenece a la seccion de " + this.seccion;
+		return "El empleado " + this.nombre + " pertenece a la seccion de " + this.seccion + " y tu id es el " + this.Id;
 		
 	}
+	
+	public static String getIdSiguiente() {
+		
+		return "El Id del siguiente Empleado será: " + IdSiguiente;
+		
+	}
+	
 }

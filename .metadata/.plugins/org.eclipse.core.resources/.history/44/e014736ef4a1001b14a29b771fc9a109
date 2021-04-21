@@ -1,0 +1,52 @@
+package es.cristian.colegioPoo;
+
+public class Colegio {
+	//propiedades
+	private String nombre;
+	
+	private Alumno arrayAlumnos[];
+	
+	private int posicionArray=0;
+	
+	
+
+	
+	//constructor
+	public Colegio(String NombreColegio, int NumerosAlumnos) {
+		
+		this.nombre=NombreColegio;
+		
+		arrayAlumnos=new Alumno[NumerosAlumnos];
+		
+	}
+	
+	public String getNombreColegio() {
+		
+		return nombre;
+		
+	}
+	
+	private Alumno getAlumno(int nAlumno) {
+		
+		return arrayAlumnos[nAlumno];
+		
+	}
+	
+	//metodos
+	public void nuevoAlumno(String nombreAlumno, double notaAlumno) {
+		
+		Alumno nuevoAlumno=new Alumno(this, nombreAlumno, notaAlumno);
+		
+		arrayAlumnos[posicionArray]=nuevoAlumno;
+		
+		posicionArray++;
+		
+	}
+	public static String getTodosAlumnos() {
+		return "Nombre es: " + Colegio.nombreAlumno +  "\nLa nota media es: " + Colegio.notaAlumno + "\nNº de alumno: " + Colegio.identidad + "\nel colegio es: " + Colegio.class;
+	}
+	
+	public static String getDatoAlumno(String alumno) {
+		return "Nombre es: " + Colegio.nombreAlumno +  "\nLa nota media es: " + Colegio.notaAlumno + "\nNº de alumno: " + Colegio.identidad + "\nel colegio es: " + Colegio.class;
+	}
+}

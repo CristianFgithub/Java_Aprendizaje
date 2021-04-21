@@ -1,0 +1,33 @@
+package es.cristian.colegioPoo;
+
+public class Alumno {
+
+	// propiedades
+	private String nombreColegio;
+	
+	private String nombreAlumno;
+
+	private double notaMedia;
+	//constructor
+	public Alumno(Colegio NombreColegio, String nombreAlumno, double notaMedia) {
+		
+		this.nombreColegio=NombreColegio;
+		
+		this.nombreAlumno=nombreAlumno;
+		
+		
+	}
+	
+	
+	//metodos
+	public String getNombreAlumno() {
+		return nombreAlumno;
+	}
+	
+	public void setNotaMedia(double notaMedia) {
+		
+		this.notaMedia=notaMedia;
+		
+	}
+
+}
