@@ -19,6 +19,7 @@ public class Colegio {
 		arrayAlumnos=new Alumno[NumerosAlumnos];
 		
 	}
+	//metodos
 	
 	public String getNombreColegio() {
 		
@@ -32,7 +33,7 @@ public class Colegio {
 		
 	}
 	
-	//metodos
+	
 	public void nuevoAlumno(String nombreAlumno, double notaAlumno) {
 		
 		Alumno nuevoAlumno=new Alumno(this, nombreAlumno, notaAlumno);

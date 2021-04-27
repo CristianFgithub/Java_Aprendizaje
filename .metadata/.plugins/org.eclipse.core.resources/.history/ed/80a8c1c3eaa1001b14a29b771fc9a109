@@ -1,9 +1,0 @@
-package es.cristian.colegioPoo;
-
-public class Colegio {
-
-	public Colegio() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
